@@ -1,0 +1,2 @@
+from more_magical_model import more_magical_prediction_function
+from magical_model import magic_prediction_function

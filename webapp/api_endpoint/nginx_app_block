@@ -1,0 +1,10 @@
+server {
+    listen 81;
+    server_name _ your_domain www.your_domain;
+
+    location / {
+        include uwsgi_params;
+        uwsgi_pass unix:/tmp/app.sock;
+    }
+}
+
